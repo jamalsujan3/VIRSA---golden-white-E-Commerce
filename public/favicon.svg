@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D5B7"/>
+      <stop offset="50%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#9A7B2C"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A1A"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  <!-- Elegant Gold Ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#goldGrad)" stroke-width="8" opacity="0.85"/>
+  <circle cx="256" cy="256" r="198" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.4"/>
+  <!-- Monogram V -->
+  <path d="M156 140 L226 360 L256 360 L356 140 L306 140 L241 300 L196 140 Z" fill="url(#goldGrad)" filter="drop-shadow(0px 4px 12px rgba(201, 168, 76, 0.4))"/>
+  <!-- Crown / Diamond Accent -->
+  <polygon points="256,105 268,122 256,132 244,122" fill="url(#goldGrad)"/>
+</svg>

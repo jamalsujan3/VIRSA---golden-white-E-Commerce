@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <defs>
+    <linearGradient id="touchGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D5B7"/>
+      <stop offset="50%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#9A7B2C"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="36" fill="#121212"/>
+  <circle cx="90" cy="90" r="74" fill="none" stroke="url(#touchGold)" stroke-width="3" opacity="0.8"/>
+  <path d="M55 50 L79 126 L90 126 L125 50 L108 50 L84.5 106 L68.5 50 Z" fill="url(#touchGold)"/>
+  <polygon points="90,38 94,44 90,48 86,44" fill="url(#touchGold)"/>
+</svg>

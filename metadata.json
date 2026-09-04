@@ -1,0 +1,8 @@
+{
+  "name": "VIRSA - golden white E-Commerce",
+  "description": "A luxury minimal e-commerce storefront for VIRSA premium traditional menswear, featuring curated categories, frictionless checkout, and an administrative dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
